@@ -1,0 +1,47 @@
+{
+  "name": "shapo-review-widgets",
+  "version": "1.0.0",
+  "description": "The easiest way to embed beautiful Shapo review widgets and testimonial forms into your website. Lightweight, and fully customizable.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "shapo",
+    "reviews",
+    "testimonials",
+    "widgets",
+    "embed",
+    "google-reviews"
+  ],
+  "author": "Shapo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shapo/shapo-review-widgets"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3"
+  }
+}
+
