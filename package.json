@@ -1,6 +1,6 @@
 {
   "name": "shapo-review-widgets",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "The easiest way to embed beautiful Shapo review widgets and testimonial forms into your website. Lightweight, and fully customizable.",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -22,17 +22,25 @@
   },
   "keywords": [
     "shapo",
-    "reviews",
-    "testimonials",
-    "widgets",
+    "shapo.io",
+    "testimonial",
+    "video testimonial",
+    "review",
+    "social proof",
+    "widget",
     "embed",
-    "google-reviews"
+    "react",
+    "shapo-review-widgets",
+    "forms",
+    "reviews",
+    "widgets",
+    "google reviews"
   ],
   "author": "Shapo",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shapo/shapo-review-widgets"
+    "url": "git+https://github.com/shapo/shapo-review-widgets.git"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
@@ -44,4 +52,3 @@
     "typescript": "^5.3.3"
   }
 }
-

@@ -9,11 +9,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 
-[Get Started](https://app.shapo.io) • [Examples](https://shapo.io/testimonial-widgets) • [Support](https://shapo.io)
+[Get Started](https://app.shapo.io) • [Examples](https://shapo.io/testimonial-widgets) • [Help](https://help.shapo.io)
 
 </div>
 
----
 
 ## 🚀 What is Shapo?
 
@@ -21,7 +20,6 @@ Shapo is the leading testimonial and review management platform trusted by **tho
 
 ![Shapo Hero Image](https://cdn.prod.website-files.com/64dcb53932a2514bd5e24d7a/669faa0da10b0dd15c4833cc_hero-image-shapo.png "Shapo - Testimonial Management Platform")
 
----
 
 ## ✨ Features
 
@@ -34,17 +32,12 @@ Shapo is the leading testimonial and review management platform trusted by **tho
 - 🎯 **Multiple Widget Types** - Grid, Carousel, Marquee, Floating, Badge, and more
 - 📝 **Form Integration** - Collect testimonials directly on your site
 
----
 
-## 📦 Installation
+ 🚀 Quick Start
 
 ```bash
 npm install shapo-review-widgets
 ```
-
----
-
-## 🚀 Quick Start
 
 ### React Component
 
@@ -69,7 +62,6 @@ function App() {
 
 That's it! 🎉
 
----
 
 ## 📖 Usage
 
@@ -126,26 +118,22 @@ function ReviewForm() {
 </html>
 ```
 
----
 
 ## 🎨 Widget Types
 
-Shapo offers a variety of beautiful widget types to showcase your testimonials:
+| Widget Type | Description | Use Case |
+|------------|-------------|----------|
+| **[Reviews Grid Widget](https://shapo.io/testimonial-widgets/grid)** | Display testimonials in a responsive grid layout | Product pages, landing pages |
+| **[Single Review Widget](https://shapo.io/testimonial-widgets/single)** | Highlight a single testimonial | Featured reviews |
+| **[Reviews Carousel Widget](https://shapo.io/testimonial-widgets/carousel)** | Rotating carousel of testimonials | Homepage hero sections |
+| **[Multi Carousel Review Widget](https://shapo.io/testimonial-widgets/multi-carousel)** | Multiple carousels on one page | Comparison pages |
+| **[Review Badge Widget](https://shapo.io/testimonial-widgets/review-badge-widget)** | Rating badge with average score | Trust signals |
+| **[Reviews Marquee Widget](https://shapo.io/testimonial-widgets/marquee)** | Continuous scrolling testimonials | Footer, sidebar |
+| **[Review List Widget](https://shapo.io/testimonial-widgets/review-list-widget)** | Vertical list of testimonials | Review pages |
+| **[Floating Review Toast](https://shapo.io/testimonial-widgets/review-toast)** | Floating popup notifications | Engagement boost |
 
-| Widget Type | Description | Use Case | Example |
-|------------|-------------|----------|---------|
-| **[Reviews Grid Widget](https://shapo.io/testimonial-widgets/grid)** | Display testimonials in a responsive grid layout | Product pages, landing pages | [View Example →](https://shapo.io/testimonial-widgets/grid) |
-| **[Single Review Widget](https://shapo.io/testimonial-widgets/single)** | Highlight a single testimonial | Featured reviews | [View Example →](https://shapo.io/testimonial-widgets/single) |
-| **[Reviews Carousel Widget](https://shapo.io/testimonial-widgets/carousel)** | Rotating carousel of testimonials | Homepage hero sections | [View Example →](https://shapo.io/testimonial-widgets/carousel) |
-| **[Multi Carousel Review Widget](https://shapo.io/testimonial-widgets/multi-carousel)** | Multiple carousels on one page | Comparison pages | [View Example →](https://shapo.io/testimonial-widgets/multi-carousel) |
-| **[Review Badge Widget](https://shapo.io/testimonial-widgets/review-badge-widget)** | Rating badge with average score | Trust signals | [View Example →](https://shapo.io/testimonial-widgets/review-badge-widget) |
-| **[Reviews Marquee Widget](https://shapo.io/testimonial-widgets/marquee)** | Continuous scrolling testimonials | Footer, sidebar | [View Example →](https://shapo.io/testimonial-widgets/marquee) |
-| **[Review List Widget](https://shapo.io/testimonial-widgets/review-list-widget)** | Vertical list of testimonials | Review pages | [View Example →](https://shapo.io/testimonial-widgets/review-list-widget) |
-| **[Floating Review Toast](https://shapo.io/testimonial-widgets/review-toast)** | Floating popup notifications | Engagement boost | [View Example →](https://shapo.io/testimonial-widgets/review-toast) |
+Customize colors, fonts, layouts, and more through your [Shapo Dashboard](https://app.shapo.io).
 
-Customize colors, fonts, layouts, and more through your [Shapo Dashboard](https://shapo.io).
-
----
 
 ## 📚 API Reference
 
@@ -161,7 +149,6 @@ Customize colors, fonts, layouts, and more through your [Shapo Dashboard](https:
 |------|------|----------|-------------|
 | `formId` | `string` | ✅ Yes | Your Shapo form ID |
 
----
 
 ## 💡 Examples
 
@@ -210,7 +197,6 @@ function App() {
 <script id="shapo-embed-js" type="text/javascript" src="https://cdn.shapo.io/js/embed.js" defer></script>
 ```
 
----
 
 ## 🔧 How It Works
 
@@ -221,8 +207,6 @@ function App() {
 2. **Inject Script** - Automatically injects the Shapo embed script if it doesn't already exist
 
 3. **Auto-Initialize** - The embed script finds all Shapo containers and initializes them automatically
-
-That's it! No API calls, no complex setup. Just simple, reliable embedding.
 
 ## 📦 TypeScript Support
 
@@ -237,11 +221,9 @@ import {
 } from 'shapo-review-widgets';
 ```
 
----
-
 ## 🎯 Getting Your Widget/Form ID
 
-1. Log in to your [Shapo Dashboard](https://shapo.io)
+1. Log in to your [Shapo Dashboard](https://app.shapo.io)
 2. Navigate to **Widgets** or **Forms**
 3. Select the widget/form you want to embed
 4. Copy the **Widget ID** or **Form ID** from the settings
@@ -252,29 +234,18 @@ import {
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
+
 
 ## 💬 Support
 
-- 📧 **Email**: [support@shapo.io](mailto:support@shapo.io)
-- 📚 **Documentation**: [https://shapo.io/docs](https://shapo.io/docs)
 - 💬 **Help Center**: [https://help.shapo.io](https://help.shapo.io)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/shapo/shapo-review-widgets/issues)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/shapo-io/shapo-review-widgets/issues)
 
----
-
-## ⭐ Show Your Support
-
-If this package helped you, please give it a ⭐ on [GitHub](https://github.com/shapo/shapo-review-widgets)!
-
----
 
 <div align="center">
 
 **Made with ❤️ by [Shapo](https://shapo.io)**
 
 *Collect, manage, and showcase your best testimonials, hassle-free.*
-
-[Website](https://shapo.io) • [Documentation](https://shapo.io/docs) • [Blog](https://shapo.io/blog)
 
 </div>
